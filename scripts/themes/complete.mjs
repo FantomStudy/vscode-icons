@@ -261,9 +261,20 @@ const tooling = [
     fileNames: ["bunfig.toml", "bun.lockb", "bun.lock"],
   },
   {
-    name: "oxc",
+    name: "oxc-fill",
     color: color(palette.cyan),
-    fileNames: [".oxlintrc.json"],
+    fileNames: [
+      ".oxlintrc.json",
+      "oxlint.config.ts",
+      "oxlint.config.mts",
+      "oxlint.config.js",
+      "oxlint.config.mjs",
+      ".oxfmtrc.json",
+      "oxfmt.config.ts",
+      "oxfmt.config.mts",
+      "oxfmt.config.js",
+      "oxfmt.config.mjs",
+    ],
   },
   {
     name: "browserslist-duo",
