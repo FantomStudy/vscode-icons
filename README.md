@@ -1,4 +1,4 @@
-# Pierre Icons (Fantom Fork)
+# Pierre Icons (Unofficial)
 
 Independent fork of [Pierre Icons](https://github.com/pierrecomputer/vscode-icons) by The Pierre Computer Company, distributed under the original [MIT license](LICENSE.md). This fork is not an official Pierre release.
 
@@ -8,10 +8,10 @@ File icon theme for VS Code with three tiers, per-icon palette colors, and a mon
 
 The extension ships three icon tiers and a monochrome variant of Complete:
 
-- **Pierre Icons — Fantom Fork (Minimal)** -- file, folder, text, and image icons only. Monochrome.
-- **Pierre Icons — Fantom Fork** -- adds language icons (JS, TS, CSS, HTML, Python, Go, Rust, Ruby, Swift, Bash, Markdown) plus font, SVG, JSON, and git. Monochrome.
-- **Pierre Icons — Fantom Fork (Complete)** -- adds framework, tooling, and config icons (React, Vue, Svelte, Astro, Docker, Tailwind, ESLint, Prettier, npm, Vite, webpack, and more). Uses per-icon colors from the [Pierre palette](https://github.com/pierrecomputer/theme).
-- **Pierre Icons — Fantom Fork (Complete Monochrome)** -- the same icons and file associations as Complete, using neutral gray colors for dark and light themes.
+- **Pierre Icons (Minimal, Unofficial)** -- file, folder, text, and image icons only. Monochrome.
+- **Pierre Icons (Unofficial)** -- adds language icons (JS, TS, CSS, HTML, Python, Go, Rust, Ruby, Swift, Bash, Markdown) plus font, SVG, JSON, and git. Monochrome.
+- **Pierre Icons (Complete, Unofficial)** -- adds framework, tooling, and config icons (React, Vue, Svelte, Astro, Docker, Tailwind, ESLint, Prettier, npm, Vite, webpack, and more). Uses per-icon colors from the [Pierre palette](https://github.com/pierrecomputer/theme).
+- **Pierre Icons (Complete Monochrome, Unofficial)** -- the same icons and file associations as Complete, using neutral gray colors for dark and light themes.
 
 ## Color system
 
@@ -43,7 +43,7 @@ npm run watch
 1. Open this folder in VS Code.
 2. Run `npm run build`.
 3. Press `F5` to launch an Extension Development Host.
-4. Choose one of the Pierre Icons — Fantom Fork themes from **File Icon Theme**.
+4. Choose one of the Pierre Icons (Unofficial) themes from **File Icon Theme**.
 
 ### Package a VSIX
 
@@ -73,8 +73,8 @@ Then install the generated `.vsix` in VS Code or Cursor.
 
 ## Fork identity and releases
 
-Version `0.1.0` introduces the independent extension ID `fantomstudy.vscode-icons` and theme IDs prefixed with `fantomstudy-icons`. The display name is a provisional fork label. The original copyright and MIT license are preserved.
+Version `0.1.0` introduces the independent extension ID `fantomstudy.vscode-icons` and theme IDs prefixed with `fantomstudy-icons`. The original copyright and MIT license are preserved.
 
-This installs separately from the original extension. Select a Fantom Fork theme after installation; for Complete Monochrome, set `workbench.iconTheme` to `fantomstudy-icons-complete-monochrome`.
+This installs separately from the original extension. Select a theme from the unofficial extension after installation; for Complete Monochrome, set `workbench.iconTheme` to `fantomstudy-icons-complete-monochrome`.
 
 The package is private to npm; distribution is through VSIX, VS Marketplace, and Open VSX. Marketplace publication requires a registered `fantomstudy` publisher, the matching Open VSX namespace, and configured publishing credentials. No marketplace publication is performed by opening or merging a PR. The publish workflow runs when a GitHub release is published.

@@ -1,6 +1,6 @@
 {
   "name": "vscode-icons",
-  "displayName": "Pierre Icons (Fantom Fork)",
+  "displayName": "Pierre Icons (Unofficial)",
   "version": "0.1.0",
   "description": "Independent fork of Pierre file icons with colored and monochrome Complete themes.",
   "categories": [
@@ -42,22 +42,22 @@
     "iconThemes": [
       {
         "id": "fantomstudy-icons-minimal",
-        "label": "Pierre Icons — Fantom Fork (Minimal)",
+        "label": "Pierre Icons (Minimal, Unofficial)",
         "path": "./icons/theme-minimal.json"
       },
       {
         "id": "fantomstudy-icons",
-        "label": "Pierre Icons — Fantom Fork",
+        "label": "Pierre Icons (Unofficial)",
         "path": "./icons/theme-default.json"
       },
       {
         "id": "fantomstudy-icons-complete",
-        "label": "Pierre Icons — Fantom Fork (Complete)",
+        "label": "Pierre Icons (Complete, Unofficial)",
         "path": "./icons/theme-complete.json"
       },
       {
         "id": "fantomstudy-icons-complete-monochrome",
-        "label": "Pierre Icons — Fantom Fork (Complete Monochrome)",
+        "label": "Pierre Icons (Complete Monochrome, Unofficial)",
         "path": "./icons/theme-complete-monochrome.json"
       }
     ]
