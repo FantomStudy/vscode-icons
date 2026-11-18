@@ -14,10 +14,13 @@ const rootDir = path.resolve(__dirname, "..");
 const iconOutputDir = path.join(rootDir, "icons");
 const svgDir = path.join(rootDir, "svgs");
 
+const completeIcons = [...minimal, ...defaults, ...complete];
+
 const tiers = {
   minimal,
   default: [...minimal, ...defaults],
-  complete: [...minimal, ...defaults, ...complete],
+  complete: completeIcons,
+  "complete-monochrome": completeIcons,
 };
 
 // ---------------------------------------------------------------------------
@@ -189,6 +192,7 @@ const tierOptions = {
   minimal: { colored: false },
   default: { colored: false },
   complete: { colored: true },
+  "complete-monochrome": { colored: false },
 };
 
 for (const [name, icons] of Object.entries(tiers)) {

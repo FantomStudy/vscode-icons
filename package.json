@@ -1,35 +1,27 @@
 {
-  "name": "@pierre/vscode-icons",
-  "displayName": "Pierre VS Code Icons",
-  "description": "File icon theme for VS Code backed by source SVGs.",
-  "version": "0.0.9",
-  "publisher": "pierrecomputer",
-  "license": "MIT",
-  "type": "module",
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#141415",
-    "theme": "dark"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pierrecomputer/vscode-icons"
-  },
-  "bugs": {
-    "url": "https://github.com/pierrecomputer/vscode-icons/issues"
-  },
-  "engines": {
-    "vscode": "^1.90.0"
-  },
+  "name": "vscode-icons",
+  "displayName": "Pierre Icons (Unofficial)",
+  "version": "0.1.0",
+  "description": "Independent fork of Pierre file icons with colored and monochrome Complete themes.",
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "icons",
-    "pierre",
     "file-icons",
-    "icon-theme"
+    "icon-theme",
+    "icons",
+    "pierre"
   ],
+  "bugs": {
+    "url": "https://github.com/FantomStudy/vscode-icons/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FantomStudy/vscode-icons"
+  },
+  "publisher": "fantomstudy",
+  "type": "module",
   "scripts": {
     "build": "npm run format:svgs && npm run format:check && npm run lint && node scripts/build-icon-theme.mjs",
     "watch": "node scripts/watch-svgs.mjs",
@@ -40,32 +32,43 @@
     "format:svgs": "node scripts/format-svgs.mjs",
     "sizes": "node scripts/svg-sizes.mjs"
   },
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "pierre-icons-minimal",
-        "label": "Pierre Icons (Minimal)",
-        "path": "./icons/theme-minimal.json"
-      },
-      {
-        "id": "pierre-icons",
-        "label": "Pierre Icons",
-        "path": "./icons/theme-default.json"
-      },
-      {
-        "id": "pierre-icons-complete",
-        "label": "Pierre Icons (Complete)",
-        "path": "./icons/theme-complete.json"
-      }
-    ]
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@vscode/vsce": "^3.2.2",
     "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
     "svgo": "^4.0.1"
-  }
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "fantomstudy-icons-minimal",
+        "label": "Pierre Icons (Minimal, Unofficial)",
+        "path": "./icons/theme-minimal.json"
+      },
+      {
+        "id": "fantomstudy-icons",
+        "label": "Pierre Icons (Unofficial)",
+        "path": "./icons/theme-default.json"
+      },
+      {
+        "id": "fantomstudy-icons-complete",
+        "label": "Pierre Icons (Complete, Unofficial)",
+        "path": "./icons/theme-complete.json"
+      },
+      {
+        "id": "fantomstudy-icons-complete-monochrome",
+        "label": "Pierre Icons (Complete Monochrome, Unofficial)",
+        "path": "./icons/theme-complete-monochrome.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141415",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "private": true
 }
