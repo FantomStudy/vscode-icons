@@ -71,10 +71,8 @@ Then install the generated `.vsix` in VS Code or Cursor.
 
 3. Run `npm run build`.
 
-## Fork identity and releases
+## Fork identity
 
 Version `0.1.0` introduces the independent extension ID `fantomstudy.vscode-icons` and theme IDs prefixed with `fantomstudy-icons`. The original copyright and MIT license are preserved.
 
 This installs separately from the original extension. Select a theme from the unofficial extension after installation; for Complete Monochrome, set `workbench.iconTheme` to `fantomstudy-icons-complete-monochrome`.
-
-The package is private to npm; distribution is through VSIX, VS Marketplace, and Open VSX. Marketplace publication requires a registered `fantomstudy` publisher, the matching Open VSX namespace, and configured publishing credentials. No marketplace publication is performed by opening or merging a PR. The publish workflow runs when a GitHub release is published.
