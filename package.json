@@ -56,6 +56,11 @@
         "id": "pierre-icons-complete",
         "label": "Pierre Icons (Complete)",
         "path": "./icons/theme-complete.json"
+      },
+      {
+        "id": "pierre-icons-complete-monochrome",
+        "label": "Pierre Icons (Complete Monochrome)",
+        "path": "./icons/theme-complete-monochrome.json"
       }
     ]
   },
